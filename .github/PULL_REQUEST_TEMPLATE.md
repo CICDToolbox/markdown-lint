@@ -1,7 +1,9 @@
+# Thank You
+
 Thanks for submitting a pull request! Please provide enough information so that
 others can review your pull request:
 
-# Summary
+## Summary
 
 <!-- Summary of the PR -->
 
@@ -20,14 +22,14 @@ the pull request solve?
 <!-- Example: When "Adding a function to do X", explain why it is necessary
 to have a way to do X. -->
 
-# Test plan (required)
+## Test plan (required)
 
 Demonstrate the code is solid. Example: The exact commands you ran and their
 output, screenshots help greatly.
 
 <!-- Make sure tests pass on both Travis. -->
 
-# Closing issues
+## Closing issues
 
 <!-- Put `fixes #XXXX` in your comment to auto-close the issue that your PR
 fixes (if such). -->
