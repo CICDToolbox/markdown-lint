@@ -73,7 +73,7 @@ jobs:
         run: bash <(curl -s https://raw.githubusercontent.com/CICDToolbox/yaml-lint/master/pipeline.sh)
 
   slack-workflow-status:
-    if: always():
+    if: always()
     name: Slack Post Workflow Notification
     needs:
       - actionlint
