@@ -46,6 +46,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Setup node 16
         uses: actions/setup-node@v3
         with:
@@ -73,6 +74,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Setup node 16 
         uses: actions/setup-node@v3
         with:
