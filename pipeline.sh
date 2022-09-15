@@ -42,8 +42,6 @@ CURRENT_STAGE=0
 
 function install_prerequisites
 {
-    local CMD
-
     stage "Install Prerequisites"
 
     if ! command -v ${TEST_COMMAND} &> /dev/null
