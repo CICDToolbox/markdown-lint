@@ -48,6 +48,8 @@ jobs:
           node-version: 16
       - name: Run Markdown Lint
         run: bash <(curl -s https://raw.githubusercontent.com/CICDToolbox/markdown-lint/master/pipeline.sh)
+        env:
+          EXCLUDE_FILES: "README.md"
 
   shellcheck:
     name: ShellCheck
